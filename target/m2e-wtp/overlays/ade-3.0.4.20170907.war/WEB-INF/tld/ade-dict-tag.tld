@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	<description><![CDATA["北京英富森软件股份有限公司-ADE3.0-数据字典标签"]]></description>
+	<display-name>"ADE3.0-数据字典标签"</display-name>
+	<tlib-version>2.2</tlib-version>
+	<short-name>ifc</short-name>
+	<uri>/ade-dict-tags</uri>
+	<tag>
+		<description><![CDATA[根据code输出一个字典项]]></description>
+		<name>print</name>
+		<tag-class>cn.com.infcn.ade.framework.taglib.dicttionary.DictionaryPrintTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<description><![CDATA[数据字典的code]]></description>
+			<name>code</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<description><![CDATA[选择输出属性，默认为value，可以指定为value或者name]]></description>
+			<name>field</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>

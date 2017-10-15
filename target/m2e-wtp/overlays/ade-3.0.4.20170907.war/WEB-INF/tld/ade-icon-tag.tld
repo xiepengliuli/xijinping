@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	<description><![CDATA["北京英富森软件股份有限公司-ADE3.0-图标标签"]]></description>
+	<display-name>"ADE3.0-图标标签"</display-name>
+	<tlib-version>2.2</tlib-version>
+	<short-name>ifc</short-name>
+	<uri>/ade-icon-tags</uri>
+	<tag>
+		<description><![CDATA[输出图标]]></description>
+		<name>icon</name>
+		<tag-class>cn.com.infcn.ade.framework.taglib.IconFontTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<description><![CDATA[图标的名称]]></description>
+			<name>name</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>

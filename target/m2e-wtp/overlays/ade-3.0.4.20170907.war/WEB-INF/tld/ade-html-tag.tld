@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	<description><![CDATA["北京英富森软件股份有限公司-ADE4.2-HTML相关标签"]]></description>
+	<display-name>"ADE4.2-HTML相关标签"</display-name>
+	<tlib-version>2.2</tlib-version>
+	<short-name>ifc</short-name>
+	<uri>/ade-html-tags</uri>
+	<tag>
+		<description><![CDATA[base标签]]></description>
+		<name>base</name>
+		<tag-class>cn.com.infcn.ade.framework.taglib.HTMLBaseTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+</taglib>

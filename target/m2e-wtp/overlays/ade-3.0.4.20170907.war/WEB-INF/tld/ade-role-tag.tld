@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="2.0"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+  <description><![CDATA["北京英富森软件股份有限公司-ADE3.0-权限标签"]]></description>
+  <display-name>"ADE3.0-权限标签"</display-name>
+  <tlib-version>2.2</tlib-version>
+  <short-name>ifc</short-name>
+  <uri>/ade-role-tags</uri>
+
+  <tag>
+    <description><![CDATA[连接按钮]]></description>
+    <name>linkbutton</name>
+    <tag-class>cn.com.infcn.ade.framework.taglib.RoleLinkButtonTag</tag-class>
+    <body-content>scriptless</body-content>
+
+    <attribute>
+      <description><![CDATA[权限串]]></description>
+      <name>permission</name>
+      <required>true</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+
+    <attribute>
+      <description><![CDATA[onclick事件]]></description>
+      <name>onclick</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+
+    <attribute>
+      <description><![CDATA[连接的访问地址]]></description>
+      <name>href</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+
+    <attribute>
+      <description><![CDATA[css的class]]></description>
+      <name>styleClass</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+
+    <attribute>
+      <description><![CDATA[data-option]]></description>
+      <name>dataOptions</name>
+      <required>true</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+  </tag>
+
+</taglib>

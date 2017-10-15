@@ -1,0 +1,86 @@
+.logo {
+	background: url('images/infcn.png') no-repeat;
+}
+
+hr {
+	background-color: #D4D4D4;
+	height: 1px;
+	border: none;
+}
+
+.ade-pointer {
+	cursor: pointer;
+}
+
+/*灰颜色的背景*/
+.ade-gray {
+	background-color: #F1F1F1;
+}
+
+/*没有图标的tree*/
+.ade-noicon-tree .tree-folder-open {
+	background: none;
+}
+
+/*查询条件*/
+.ade-table {
+	margin: 10px 0px 10px 0px;
+}
+
+.ade-table tr {
+	margin-bottom: 15px;
+}
+
+.ade-table th {
+	/* 	width: 120px; */
+	text-align: right;
+	padding: 0px 0px 10px 15px;
+}
+
+.ade-table td {
+	padding: 0px 0px 10px 15px;
+}
+
+.ade-table .ade-table-more {
+	display: none;
+}
+
+/**操作开始*/
+.ade-operate {
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.ade-operate:hover {
+	text-decoration: underline;
+}
+
+.datagrid-row-selected .ade-operate {
+	color: #FFFFFF;
+}
+
+.datagrid-row-selected .ade-operate:hover {
+	color: #EEEEEE;
+}
+
+.ade-operate-1 {
+	color: #000;
+}
+
+.ade-operate-2 {
+	color: #1DA02B;
+}
+
+.ade-operate-2:hover {
+	color: #167820;
+}
+
+.ade-operate-3 {
+	color: #FF0000;
+}
+
+.ade-operate-3:hover {
+	color: #EA0000;
+}
+/**操作结束*/

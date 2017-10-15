@@ -1,0 +1,42 @@
+.detail_container {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.detail_container .title_container {
+	margin-top: 30px;
+	line-height: 40px;
+	border-bottom: 5px solid #c0c0c0;
+}
+
+.detail_container .content {
+	margin: 0 auto;
+}
+
+.title_container .title {
+	color: #000;
+	font-size: 28px;
+}
+
+.title_container .subtitle {
+	color: #000;
+	font-size: 20px;
+}
+
+.title_container .author {
+	color: green;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.title_container .source {
+	color: #c0c0c0;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.title_container .publishTime {
+	color: #000;
+	font-size: 12px;
+	margin-left: 10px;
+}

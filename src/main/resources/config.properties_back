@@ -1,0 +1,30 @@
+hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+driverClassName=com.mysql.jdbc.Driver
+validationQuery=SELECT 1
+jdbc_url=jdbc:mysql://localhost:3310/ade3demo_304_01?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+jdbc_username=root
+jdbc_password=root
+
+#update or none
+hibernate.hbm2ddl.auto=none
+hibernate.show_sql=false
+hibernate.format_sql=false
+hibernate.use_sql_comments=false
+
+adminLoginCaptcha=false
+
+sessionInfoName=sessionInfo
+
+image=gif,jpg,jpeg,png,bmp
+flash=swf,flv
+media=swf,flv,mp3,wav,wma,wmv,mid,avi,mpg,asf,rm,rmvb
+file=doc,docx,xls,xlsx,ppt,htm,html,txt,zip,rar,gz,bz2
+#upload file directory for firstPage
+imagePath=images
+maxFileSize=102400
+
+# file upload forder.
+# if value is empty, the forder "WEB-INF" will be used.
+# you can selected another disk to save webapp upload file.
+# example: uploadForder=D:\delete\upload
+uploadForder=D:\delete\upload

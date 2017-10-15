@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+<<<<<<< HEAD
+encoding//src/test/java=UTF-8
+=======
+encoding/README.md=utf-8
+>>>>>>> branch 'ade304' of http://192.168.10.123:8080/git/git/yangb/ade3demo.git
+separateDerivedEncodings=true
